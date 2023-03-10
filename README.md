@@ -10,7 +10,11 @@ Tiny is a template engine that can output HTML5 strings or files.
 + The `VDom` class is responsible for rendering virtual dom data into real Dom.
 + The `tags` file provides a number of commonly used HTML5 tags, all of which are instances of the Tag class.
 
-it also works on xml.
+It also works on xml.
+
+## Install
+
+`composer require yonlj/tiny`
 
 ## Basic usage
 
@@ -89,6 +93,3 @@ For more usage examples see [here](https://github.com/YonLJ/Tiny/tree/master/exa
 ## License
 MIT © YonLJ
 
-## Keywords
-
-php templating-engine virtual-dom
